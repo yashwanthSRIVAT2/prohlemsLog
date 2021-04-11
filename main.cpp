@@ -83,12 +83,12 @@ class Operator{
       ofstream targetFile("dataResource.txt", ios::app);
       
       
-      if(targetFile.is_open()){
-        cout<<"open"<<endl;
-      }
-      else{cout<<"error\n";}
-      
-      
+
+
+
+
+
+
       targetFile<<putString;
       targetFile.close();
       
